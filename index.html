@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE STAGE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        .carousel-inner img {
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">The Stage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Logo The Stage 01.jpg" alt="Logo" width="80" height="80"
+                            class="d-inline-block align-text-top">
+                    </a>
+                </div>
+            </nav>
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-danger">Left</button>
+                <button type="button" class="btn btn-warning">Middle</button>
+                <button type="button" class="btn btn-success">Right</button>
+            </div>
+        </div>
+    </nav>
+    <!-- slideshow -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Food 8.99 LED.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Singer LED.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Unlimited Free Flow Draft Beer001.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Mussels001.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- card -->
+    <div style="display: flex; gap: 1rem;">
+        <div class="card" style="width: 18rem;">
+            <img src="Singer02.jpg" card-img-top" alt="Sapporo Beer Promotion">
+            <div class="card-body">
+                <p class="card-text">Live performance </p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Singer Grace.jpg" class="card-img-top" alt="Free Flow Draft Beer">
+            <div class="card-body">
+                <p class="card-text">Live performance by Grace.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Singer B Mario.jpg" class="card-img-top" alt="Salmon Belly Dish">
+            <div class="card-body">
+                <p class="card-text">Live performance by B Mario.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Singer Kunthea.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Live performance by Kunthea.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Singer03.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Live performance by Singer The Stage</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex; gap: 1rem;">
+        <div class="card" style="width: 18rem;">
+            <img src="Food 9.99 FB.jpg" card-img-top" alt="Sapporo Beer Promotion">
+            <div class="card-body">
+                <p class="card-text">Food Promotion.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Food 8.99 FB.jpg" class="card-img-top" alt="Free Flow Draft Beer">
+            <div class="card-body">
+                <p class="card-text">Food Promotion.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="HMD01.jpg" class="card-img-top" alt="Salmon Belly Dish">
+            <div class="card-body">
+                <p class="card-text">Raa Smey Ng haa.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Promotion Sapporo 6+1 Layout02.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Food Promotion.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Promotion Sapporo 6+1 Layout01.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Food Promotion 8.99.</p>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; gap: 1rem;">
+        <div class="card" style="width: 18rem;">
+            <img src="Sl1.jpg" card-img-top" alt="Sapporo Beer Promotion">
+            <div class="card-body">
+                <p class="card-text">Smey Smey.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Smey copy.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Steav TK.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="14+02.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Steav Amm mg.</p>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="Smey.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Smey KTPlay.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="IMG_20260519_105351_362.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Loy Mes brooo.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

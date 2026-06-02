@@ -1,0 +1,57 @@
+    <div style="display: flex; gap: 1rem;">
+        <div class="card" style="width: 18rem;">
+            <img src="Singer02.jpg" card-img-top" alt="Sapporo Beer Promotion">
+            <div class="card-body">
+                <p class="card-text">Live performance </p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Singer Grace.jpg" class="card-img-top" alt="Free Flow Draft Beer">
+            <div class="card-body">
+                <p class="card-text">Live performance by Grace.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Singer B Mario.jpg" class="card-img-top" alt="Salmon Belly Dish">
+            <div class="card-body">
+                <p class="card-text">Live performance by B Mario.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Singer Kunthea.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Live performance by Kunthea.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Singer03.jpg" class="card-img-top" alt="Singer B Mario">
+            <div class="card-body">
+                <p class="card-text">Live performance by Singer The Stage</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+        <div class="card" style="width: 18rem;">
+        <img src="Promotion Sapporo 6+1 Layout02.jpg" class="card-img-top" alt="Singer B Mario">
+        <div class="card-body">
+            <p class="card-text">Food Promotion.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Promotion Sapporo 6+1 Layout01.jpg" class="card-img-top" alt="Singer B Mario">
+        <div class="card-body">
+            <p class="card-text">Food Promotion 8.99 .</p>
+        </div>
+    </div>
